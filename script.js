@@ -44,6 +44,14 @@ forward.addEventListener("click", function() {
     updateMusic();
 });
 
+back.addEventListener("click" , function (){
+    currentIndex--;
+    if(currentIndex < 0){
+        currentIndex = music.length + 1;
+    }
+    updateMusic();
+})
+
 /****************************************************************** */
 let playBtn = document.getElementById("playBtn")
 
