@@ -1,5 +1,5 @@
 # DevChallenges.io - Music Player
-
+demo: https://marwaas3d.github.io/music-player/
 ![Thumbnail for the Music Player coding challenge](./thumbnail.jpg)
 
 ## Welcome! 👋
