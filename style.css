@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --grey:#4D5562;
+    --pink: #C93B76;
+}
+
+body{
+    height: 100vh;
+    background-image: url('./resources/gradient-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 768px){
+    body{
+       background-image: url('./resources/gradient-bg-small.jpg'); 
+    }
+}
+
+.container .row{
+    height: 100vh;
+}
+
+.container .card{
+    width: 22rem;
+    height: 34rem;
+    background-color: #14062687;
+}
+
+.card-text ,.time{
+    color: var(--grey);
+    font-size: 12px;
+}
+
+.progress{
+    height: 4px;
+    cursor: pointer;
+}
+
+.progress .progress-bar{
+   background-color: var(--pink);
+}
+
+.play-btn{
+    width: 50px;
+    height: 50px;
+    background-color: var(--pink);
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: -1px -1px 10px 3px #c93b7685;
+}
+
+.back , .forward{
+    cursor: pointer;
+}
+
+
+::selection{
+    background-color: var(--pink);
+    color: white;
+}
